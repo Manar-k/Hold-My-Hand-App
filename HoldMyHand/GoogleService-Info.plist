@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>956926902979-qbe62akidroommhnvta8l1ap1gg4kiaa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.956926902979-qbe62akidroommhnvta8l1ap1gg4kiaa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDG3oO_CxRab0Jcxn-6Vi67-D9ZsJJiArQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>956926902979</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Manar.mac.HoldMyHand</string>
+	<key>PROJECT_ID</key>
+	<string>gettingstarting-1891a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gettingstarting-1891a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:956926902979:ios:416ac0ad5c85d58c8c1876</string>
+	<key>DATABASE_URL</key>
+	<string>https://gettingstarting-1891a-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

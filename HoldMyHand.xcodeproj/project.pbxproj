@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70E5E0D27C3E08000C033DD /* HoldMyHandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E5E0C27C3E08000C033DD /* HoldMyHandApp.swift */; };
+		E70E5E0F27C3E08000C033DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E5E0E27C3E08000C033DD /* ContentView.swift */; };
+		E70E5E1127C3E08A00C033DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70E5E1027C3E08A00C033DD /* Assets.xcassets */; };
+		E70E5E1427C3E08A00C033DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70E5E1327C3E08A00C033DD /* Preview Assets.xcassets */; };
+		E70E5E2127C3E28500C033DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E70E5E2027C3E28500C033DD /* GoogleService-Info.plist */; };
+		E71FDBE5280EB5DF00666B03 /* SenarioFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FDBE4280EB5DF00666B03 /* SenarioFive.swift */; };
+		E722AB7127E9B210007988DF /* ScenariosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AB7027E9B210007988DF /* ScenariosView.swift */; };
+		E722AB7427E9B322007988DF /* ScenarioOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AB7327E9B322007988DF /* ScenarioOne.swift */; };
+		E722AB7727E9B3A5007988DF /* SenarioTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AB7627E9B3A5007988DF /* SenarioTwo.swift */; };
+		E722AB7A27E9B3E3007988DF /* SenarioThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AB7927E9B3E3007988DF /* SenarioThree.swift */; };
+		E722AB7D27E9B46E007988DF /* ScenarioFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AB7C27E9B46E007988DF /* ScenarioFour.swift */; };
+		E722ABA627E9D3ED007988DF /* emotionalFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722ABA527E9D3ED007988DF /* emotionalFace.swift */; };
+		E722ABA927E9D463007988DF /* firstLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722ABA827E9D463007988DF /* firstLearnView.swift */; };
+		E722ABAC27E9DE2B007988DF /* progressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722ABAB27E9DE2B007988DF /* progressView.swift */; };
+		E77AB72F282A5EB700B4B2D9 /* Pods_HoldMyHand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5202922C2E1450D9ADE7B73B /* Pods_HoldMyHand.framework */; };
+		E7ABDAA42817298900F6ADAC /* activityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABDAA32817298900F6ADAC /* activityStatus.swift */; };
+		E7D1E1B127E5C5000000525A /* userSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D1E1B027E5C5000000525A /* userSetting.swift */; };
+		E7D24D8C2861AE5C00AE2E22 /* learnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24D682861AE5C00AE2E22 /* learnView.swift */; };
+		E7D24D8D2861AE5C00AE2E22 /* frearful.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D6A2861AE5C00AE2E22 /* frearful.wav */; };
+		E7D24D8E2861AE5C00AE2E22 /* shy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D6B2861AE5C00AE2E22 /* shy.wav */; };
+		E7D24D8F2861AE5C00AE2E22 /* clamB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D6C2861AE5C00AE2E22 /* clamB.wav */; };
+		E7D24D902861AE5C00AE2E22 /* sleepyB-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D6D2861AE5C00AE2E22 /* sleepyB-1.wav */; };
+		E7D24D912861AE5C00AE2E22 /* excited.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D6E2861AE5C00AE2E22 /* excited.wav */; };
+		E7D24D922861AE5C00AE2E22 /* sickB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D6F2861AE5C00AE2E22 /* sickB.wav */; };
+		E7D24D932861AE5C00AE2E22 /* happy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D702861AE5C00AE2E22 /* happy.wav */; };
+		E7D24D942861AE5D00AE2E22 /* sad.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D712861AE5C00AE2E22 /* sad.wav */; };
+		E7D24D952861AE5D00AE2E22 /* surprised.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D722861AE5C00AE2E22 /* surprised.wav */; };
+		E7D24D962861AE5D00AE2E22 /* angryB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D732861AE5C00AE2E22 /* angryB.wav */; };
+		E7D24D972861AE5D00AE2E22 /* sick.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D742861AE5C00AE2E22 /* sick.wav */; };
+		E7D24D982861AE5D00AE2E22 /* excitedB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D752861AE5C00AE2E22 /* excitedB.wav */; };
+		E7D24D992861AE5D00AE2E22 /* fearfulB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D762861AE5C00AE2E22 /* fearfulB.wav */; };
+		E7D24D9A2861AE5D00AE2E22 /* sleepyB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D772861AE5C00AE2E22 /* sleepyB.wav */; };
+		E7D24D9B2861AE5D00AE2E22 /* angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D782861AE5C00AE2E22 /* angry.wav */; };
+		E7D24D9C2861AE5D00AE2E22 /* happyB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D792861AE5C00AE2E22 /* happyB.wav */; };
+		E7D24D9D2861AE5D00AE2E22 /* sleepy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D7A2861AE5C00AE2E22 /* sleepy.wav */; };
+		E7D24D9E2861AE5D00AE2E22 /* Sad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D7B2861AE5C00AE2E22 /* Sad.mp3 */; };
+		E7D24D9F2861AE5D00AE2E22 /* calm.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D7C2861AE5C00AE2E22 /* calm.wav */; };
+		E7D24DA02861AE5D00AE2E22 /* surprisedB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D7D2861AE5C00AE2E22 /* surprisedB.wav */; };
+		E7D24DA12861AE5D00AE2E22 /* emofaceB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D7E2861AE5C00AE2E22 /* emofaceB.wav */; };
+		E7D24DA22861AE5D00AE2E22 /* shyB.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D7F2861AE5C00AE2E22 /* shyB.wav */; };
+		E7D24DA32861AE5D00AE2E22 /* emoface.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D802861AE5C00AE2E22 /* emoface.wav */; };
+		E7D24DA42861AE5D00AE2E22 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24D812861AE5C00AE2E22 /* ContentView2.swift */; };
+		E7D24DA52861AE5D00AE2E22 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24D822861AE5C00AE2E22 /* MyApp.swift */; };
+		E7D24DA62861AE5D00AE2E22 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24D832861AE5C00AE2E22 /* Package.swift */; };
+		E7D24DA72861AE5D00AE2E22 /* SoundG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24D842861AE5C00AE2E22 /* SoundG.swift */; };
+		E7D24DA82861AE5D00AE2E22 /* DocumentThumbnail.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D872861AE5C00AE2E22 /* DocumentThumbnail.plist */; };
+		E7D24DA92861AE5D00AE2E22 /* CachedManifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D882861AE5C00AE2E22 /* CachedManifest.plist */; };
+		E7D24DAA2861AE5D00AE2E22 /* Workspace.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D892861AE5C00AE2E22 /* Workspace.plist */; };
+		E7D24DAB2861AE5D00AE2E22 /* DocumentThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D24D8A2861AE5C00AE2E22 /* DocumentThumbnail.png */; };
+		E7D24DAC2861AE5D00AE2E22 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24D8B2861AE5C00AE2E22 /* Sound.swift */; };
+		E7D24DCE2861AE6E00AE2E22 /* MassegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DB32861AE6E00AE2E22 /* MassegeView.swift */; };
+		E7D24DCF2861AE6E00AE2E22 /* massegexlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DB42861AE6E00AE2E22 /* massegexlant.swift */; };
+		E7D24DD02861AE6E00AE2E22 /* clapsound¬.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D24DB52861AE6E00AE2E22 /* clapsound¬.mp3 */; };
+		E7D24DD12861AE6E00AE2E22 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DB62861AE6E00AE2E22 /* EndView.swift */; };
+		E7D24DD22861AE6E00AE2E22 /* faceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DB72861AE6E00AE2E22 /* faceApp.swift */; };
+		E7D24DD32861AE6E00AE2E22 /* face2b.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DBA2861AE6E00AE2E22 /* face2b.swift */; };
+		E7D24DD42861AE6E00AE2E22 /* SoundTrackBoy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D24DBB2861AE6E00AE2E22 /* SoundTrackBoy.mp3 */; };
+		E7D24DD52861AE6E00AE2E22 /* face4b.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DBC2861AE6E00AE2E22 /* face4b.swift */; };
+		E7D24DD62861AE6E00AE2E22 /* face1b.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DBD2861AE6E00AE2E22 /* face1b.swift */; };
+		E7D24DD72861AE6E00AE2E22 /* face3b.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DBE2861AE6E00AE2E22 /* face3b.swift */; };
+		E7D24DD82861AE6E00AE2E22 /* BoyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DBF2861AE6E00AE2E22 /* BoyViews.swift */; };
+		E7D24DD92861AE6E00AE2E22 /* face5b.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DC02861AE6E00AE2E22 /* face5b.swift */; };
+		E7D24DDA2861AE6E00AE2E22 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DC12861AE6E00AE2E22 /* Persistence.swift */; };
+		E7D24DDB2861AE6E00AE2E22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D24DC32861AE6E00AE2E22 /* Preview Assets.xcassets */; };
+		E7D24DDC2861AE6E00AE2E22 /* GirlViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DC52861AE6E00AE2E22 /* GirlViews.swift */; };
+		E7D24DDD2861AE6E00AE2E22 /* face4g.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DC62861AE6E00AE2E22 /* face4g.swift */; };
+		E7D24DDE2861AE6E00AE2E22 /* face2g.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DC72861AE6E00AE2E22 /* face2g.swift */; };
+		E7D24DDF2861AE6E00AE2E22 /* face5g.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DC82861AE6E00AE2E22 /* face5g.swift */; };
+		E7D24DE02861AE6E00AE2E22 /* SoundTrackGirl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D24DC92861AE6E00AE2E22 /* SoundTrackGirl.mp3 */; };
+		E7D24DE12861AE6E00AE2E22 /* face3g.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DCA2861AE6E00AE2E22 /* face3g.swift */; };
+		E7D24DE22861AE6E00AE2E22 /* face1g.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DCB2861AE6E00AE2E22 /* face1g.swift */; };
+		E7D24DE32861AE6E00AE2E22 /* face.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7D24DCC2861AE6E00AE2E22 /* face.xcdatamodeld */; };
+		E7D7B28627D2E43F00388FFC /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7B28527D2E43F00388FFC /* ForgetPasswordView.swift */; };
+		E7D7B28927D2EC2500388FFC /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7B28827D2EC2500388FFC /* CreateAccountView.swift */; };
+		E7D7B28C27D2EF4400388FFC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7B28B27D2EF4400388FFC /* UserModel.swift */; };
+		E7D7B29327D750C000388FFC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7B29227D750C000388FFC /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5202922C2E1450D9ADE7B73B /* Pods_HoldMyHand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoldMyHand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738D32E6422DF595EC65B180 /* Pods-HoldMyHand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoldMyHand.release.xcconfig"; path = "Target Support Files/Pods-HoldMyHand/Pods-HoldMyHand.release.xcconfig"; sourceTree = "<group>"; };
+		CD18C8C329348C943459F594 /* Pods-HoldMyHand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoldMyHand.debug.xcconfig"; path = "Target Support Files/Pods-HoldMyHand/Pods-HoldMyHand.debug.xcconfig"; sourceTree = "<group>"; };
+		E70E5E0927C3E08000C033DD /* HoldMyHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoldMyHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70E5E0C27C3E08000C033DD /* HoldMyHandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldMyHandApp.swift; sourceTree = "<group>"; };
+		E70E5E0E27C3E08000C033DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E70E5E1027C3E08A00C033DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E70E5E1327C3E08A00C033DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E70E5E1527C3E08A00C033DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70E5E2027C3E28500C033DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E71FDBE4280EB5DF00666B03 /* SenarioFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenarioFive.swift; sourceTree = "<group>"; };
+		E722AB7027E9B210007988DF /* ScenariosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenariosView.swift; sourceTree = "<group>"; };
+		E722AB7327E9B322007988DF /* ScenarioOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioOne.swift; sourceTree = "<group>"; };
+		E722AB7627E9B3A5007988DF /* SenarioTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenarioTwo.swift; sourceTree = "<group>"; };
+		E722AB7927E9B3E3007988DF /* SenarioThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenarioThree.swift; sourceTree = "<group>"; };
+		E722AB7C27E9B46E007988DF /* ScenarioFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioFour.swift; sourceTree = "<group>"; };
+		E722ABA527E9D3ED007988DF /* emotionalFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalFace.swift; sourceTree = "<group>"; };
+		E722ABA827E9D463007988DF /* firstLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstLearnView.swift; sourceTree = "<group>"; };
+		E722ABAB27E9DE2B007988DF /* progressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressView.swift; sourceTree = "<group>"; };
+		E7ABDAA32817298900F6ADAC /* activityStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityStatus.swift; sourceTree = "<group>"; };
+		E7D1E1B027E5C5000000525A /* userSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSetting.swift; sourceTree = "<group>"; };
+		E7D24D682861AE5C00AE2E22 /* learnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = learnView.swift; sourceTree = "<group>"; };
+		E7D24D6A2861AE5C00AE2E22 /* frearful.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frearful.wav; sourceTree = "<group>"; };
+		E7D24D6B2861AE5C00AE2E22 /* shy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shy.wav; sourceTree = "<group>"; };
+		E7D24D6C2861AE5C00AE2E22 /* clamB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clamB.wav; sourceTree = "<group>"; };
+		E7D24D6D2861AE5C00AE2E22 /* sleepyB-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sleepyB-1.wav"; sourceTree = "<group>"; };
+		E7D24D6E2861AE5C00AE2E22 /* excited.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = excited.wav; sourceTree = "<group>"; };
+		E7D24D6F2861AE5C00AE2E22 /* sickB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sickB.wav; sourceTree = "<group>"; };
+		E7D24D702861AE5C00AE2E22 /* happy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = happy.wav; sourceTree = "<group>"; };
+		E7D24D712861AE5C00AE2E22 /* sad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sad.wav; sourceTree = "<group>"; };
+		E7D24D722861AE5C00AE2E22 /* surprised.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = surprised.wav; sourceTree = "<group>"; };
+		E7D24D732861AE5C00AE2E22 /* angryB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = angryB.wav; sourceTree = "<group>"; };
+		E7D24D742861AE5C00AE2E22 /* sick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sick.wav; sourceTree = "<group>"; };
+		E7D24D752861AE5C00AE2E22 /* excitedB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = excitedB.wav; sourceTree = "<group>"; };
+		E7D24D762861AE5C00AE2E22 /* fearfulB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fearfulB.wav; sourceTree = "<group>"; };
+		E7D24D772861AE5C00AE2E22 /* sleepyB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sleepyB.wav; sourceTree = "<group>"; };
+		E7D24D782861AE5C00AE2E22 /* angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = angry.wav; sourceTree = "<group>"; };
+		E7D24D792861AE5C00AE2E22 /* happyB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = happyB.wav; sourceTree = "<group>"; };
+		E7D24D7A2861AE5C00AE2E22 /* sleepy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sleepy.wav; sourceTree = "<group>"; };
+		E7D24D7B2861AE5C00AE2E22 /* Sad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sad.mp3; sourceTree = "<group>"; };
+		E7D24D7C2861AE5C00AE2E22 /* calm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = calm.wav; sourceTree = "<group>"; };
+		E7D24D7D2861AE5C00AE2E22 /* surprisedB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = surprisedB.wav; sourceTree = "<group>"; };
+		E7D24D7E2861AE5C00AE2E22 /* emofaceB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = emofaceB.wav; sourceTree = "<group>"; };
+		E7D24D7F2861AE5C00AE2E22 /* shyB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shyB.wav; sourceTree = "<group>"; };
+		E7D24D802861AE5C00AE2E22 /* emoface.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = emoface.wav; sourceTree = "<group>"; };
+		E7D24D812861AE5C00AE2E22 /* ContentView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		E7D24D822861AE5C00AE2E22 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		E7D24D832861AE5C00AE2E22 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		E7D24D842861AE5C00AE2E22 /* SoundG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundG.swift; sourceTree = "<group>"; };
+		E7D24D872861AE5C00AE2E22 /* DocumentThumbnail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DocumentThumbnail.plist; sourceTree = "<group>"; };
+		E7D24D882861AE5C00AE2E22 /* CachedManifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CachedManifest.plist; sourceTree = "<group>"; };
+		E7D24D892861AE5C00AE2E22 /* Workspace.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Workspace.plist; sourceTree = "<group>"; };
+		E7D24D8A2861AE5C00AE2E22 /* DocumentThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DocumentThumbnail.png; sourceTree = "<group>"; };
+		E7D24D8B2861AE5C00AE2E22 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		E7D24DB32861AE6E00AE2E22 /* MassegeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassegeView.swift; sourceTree = "<group>"; };
+		E7D24DB42861AE6E00AE2E22 /* massegexlant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = massegexlant.swift; sourceTree = "<group>"; };
+		E7D24DB52861AE6E00AE2E22 /* clapsound¬.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clapsound¬.mp3"; sourceTree = "<group>"; };
+		E7D24DB62861AE6E00AE2E22 /* EndView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		E7D24DB72861AE6E00AE2E22 /* faceApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = faceApp.swift; sourceTree = "<group>"; };
+		E7D24DBA2861AE6E00AE2E22 /* face2b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face2b.swift; sourceTree = "<group>"; };
+		E7D24DBB2861AE6E00AE2E22 /* SoundTrackBoy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoundTrackBoy.mp3; sourceTree = "<group>"; };
+		E7D24DBC2861AE6E00AE2E22 /* face4b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face4b.swift; sourceTree = "<group>"; };
+		E7D24DBD2861AE6E00AE2E22 /* face1b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face1b.swift; sourceTree = "<group>"; };
+		E7D24DBE2861AE6E00AE2E22 /* face3b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face3b.swift; sourceTree = "<group>"; };
+		E7D24DBF2861AE6E00AE2E22 /* BoyViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyViews.swift; sourceTree = "<group>"; };
+		E7D24DC02861AE6E00AE2E22 /* face5b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face5b.swift; sourceTree = "<group>"; };
+		E7D24DC12861AE6E00AE2E22 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E7D24DC32861AE6E00AE2E22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7D24DC52861AE6E00AE2E22 /* GirlViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GirlViews.swift; sourceTree = "<group>"; };
+		E7D24DC62861AE6E00AE2E22 /* face4g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face4g.swift; sourceTree = "<group>"; };
+		E7D24DC72861AE6E00AE2E22 /* face2g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face2g.swift; sourceTree = "<group>"; };
+		E7D24DC82861AE6E00AE2E22 /* face5g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face5g.swift; sourceTree = "<group>"; };
+		E7D24DC92861AE6E00AE2E22 /* SoundTrackGirl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoundTrackGirl.mp3; sourceTree = "<group>"; };
+		E7D24DCA2861AE6E00AE2E22 /* face3g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face3g.swift; sourceTree = "<group>"; };
+		E7D24DCB2861AE6E00AE2E22 /* face1g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = face1g.swift; sourceTree = "<group>"; };
+		E7D24DCD2861AE6E00AE2E22 /* face.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = face.xcdatamodel; sourceTree = "<group>"; };
+		E7D7B28527D2E43F00388FFC /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
+		E7D7B28827D2EC2500388FFC /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		E7D7B28B27D2EF4400388FFC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E7D7B29227D750C000388FFC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70E5E0627C3E08000C033DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77AB72F282A5EB700B4B2D9 /* Pods_HoldMyHand.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D42CA47FFF7439763EB083B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5202922C2E1450D9ADE7B73B /* Pods_HoldMyHand.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7D5F2334156EB876FC08A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD18C8C329348C943459F594 /* Pods-HoldMyHand.debug.xcconfig */,
+				738D32E6422DF595EC65B180 /* Pods-HoldMyHand.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E70E5E0027C3E08000C033DD = {
+			isa = PBXGroup;
+			children = (
+				E70E5E0B27C3E08000C033DD /* HoldMyHand */,
+				E70E5E0A27C3E08000C033DD /* Products */,
+				D7D5F2334156EB876FC08A2C /* Pods */,
+				4D42CA47FFF7439763EB083B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E70E5E0A27C3E08000C033DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70E5E0927C3E08000C033DD /* HoldMyHand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70E5E0B27C3E08000C033DD /* HoldMyHand */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24DAE2861AE6E00AE2E22 /* face6Final */,
+				E7D24D672861AE5C00AE2E22 /* learn_emotions */,
+				E70E5E2027C3E28500C033DD /* GoogleService-Info.plist */,
+				E70E5E0C27C3E08000C033DD /* HoldMyHandApp.swift */,
+				E70E5E0E27C3E08000C033DD /* ContentView.swift */,
+				E722AB7027E9B210007988DF /* ScenariosView.swift */,
+				E722AB7927E9B3E3007988DF /* SenarioThree.swift */,
+				E71FDBE4280EB5DF00666B03 /* SenarioFive.swift */,
+				E722AB7C27E9B46E007988DF /* ScenarioFour.swift */,
+				E722AB7327E9B322007988DF /* ScenarioOne.swift */,
+				E722AB7627E9B3A5007988DF /* SenarioTwo.swift */,
+				E7D1E1B027E5C5000000525A /* userSetting.swift */,
+				E7D7B28827D2EC2500388FFC /* CreateAccountView.swift */,
+				E7D7B28B27D2EF4400388FFC /* UserModel.swift */,
+				E7D7B28527D2E43F00388FFC /* ForgetPasswordView.swift */,
+				E7D7B29227D750C000388FFC /* Home.swift */,
+				E722ABAB27E9DE2B007988DF /* progressView.swift */,
+				E7ABDAA32817298900F6ADAC /* activityStatus.swift */,
+				E722ABA527E9D3ED007988DF /* emotionalFace.swift */,
+				E722ABA827E9D463007988DF /* firstLearnView.swift */,
+				E70E5E1027C3E08A00C033DD /* Assets.xcassets */,
+				E70E5E1527C3E08A00C033DD /* Info.plist */,
+				E70E5E1227C3E08A00C033DD /* Preview Content */,
+			);
+			path = HoldMyHand;
+			sourceTree = "<group>";
+		};
+		E70E5E1227C3E08A00C033DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E70E5E1327C3E08A00C033DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7D24D672861AE5C00AE2E22 /* learn_emotions */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24D682861AE5C00AE2E22 /* learnView.swift */,
+				E7D24D692861AE5C00AE2E22 /* Resources */,
+				E7D24D812861AE5C00AE2E22 /* ContentView2.swift */,
+				E7D24D822861AE5C00AE2E22 /* MyApp.swift */,
+				E7D24D832861AE5C00AE2E22 /* Package.swift */,
+				E7D24D842861AE5C00AE2E22 /* SoundG.swift */,
+				E7D24D852861AE5C00AE2E22 /* .swiftpm */,
+				E7D24D8B2861AE5C00AE2E22 /* Sound.swift */,
+			);
+			path = learn_emotions;
+			sourceTree = "<group>";
+		};
+		E7D24D692861AE5C00AE2E22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24D6A2861AE5C00AE2E22 /* frearful.wav */,
+				E7D24D6B2861AE5C00AE2E22 /* shy.wav */,
+				E7D24D6C2861AE5C00AE2E22 /* clamB.wav */,
+				E7D24D6D2861AE5C00AE2E22 /* sleepyB-1.wav */,
+				E7D24D6E2861AE5C00AE2E22 /* excited.wav */,
+				E7D24D6F2861AE5C00AE2E22 /* sickB.wav */,
+				E7D24D702861AE5C00AE2E22 /* happy.wav */,
+				E7D24D712861AE5C00AE2E22 /* sad.wav */,
+				E7D24D722861AE5C00AE2E22 /* surprised.wav */,
+				E7D24D732861AE5C00AE2E22 /* angryB.wav */,
+				E7D24D742861AE5C00AE2E22 /* sick.wav */,
+				E7D24D752861AE5C00AE2E22 /* excitedB.wav */,
+				E7D24D762861AE5C00AE2E22 /* fearfulB.wav */,
+				E7D24D772861AE5C00AE2E22 /* sleepyB.wav */,
+				E7D24D782861AE5C00AE2E22 /* angry.wav */,
+				E7D24D792861AE5C00AE2E22 /* happyB.wav */,
+				E7D24D7A2861AE5C00AE2E22 /* sleepy.wav */,
+				E7D24D7B2861AE5C00AE2E22 /* Sad.mp3 */,
+				E7D24D7C2861AE5C00AE2E22 /* calm.wav */,
+				E7D24D7D2861AE5C00AE2E22 /* surprisedB.wav */,
+				E7D24D7E2861AE5C00AE2E22 /* emofaceB.wav */,
+				E7D24D7F2861AE5C00AE2E22 /* shyB.wav */,
+				E7D24D802861AE5C00AE2E22 /* emoface.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7D24D852861AE5C00AE2E22 /* .swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24D862861AE5C00AE2E22 /* playgrounds */,
+			);
+			path = .swiftpm;
+			sourceTree = "<group>";
+		};
+		E7D24D862861AE5C00AE2E22 /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24D872861AE5C00AE2E22 /* DocumentThumbnail.plist */,
+				E7D24D882861AE5C00AE2E22 /* CachedManifest.plist */,
+				E7D24D892861AE5C00AE2E22 /* Workspace.plist */,
+				E7D24D8A2861AE5C00AE2E22 /* DocumentThumbnail.png */,
+			);
+			path = playgrounds;
+			sourceTree = "<group>";
+		};
+		E7D24DAE2861AE6E00AE2E22 /* face6Final */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24DAF2861AE6E00AE2E22 /* faceUITests */,
+				E7D24DB02861AE6E00AE2E22 /* faceTests */,
+				E7D24DB12861AE6E00AE2E22 /* face */,
+			);
+			path = face6Final;
+			sourceTree = "<group>";
+		};
+		E7D24DAF2861AE6E00AE2E22 /* faceUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = faceUITests;
+			sourceTree = "<group>";
+		};
+		E7D24DB02861AE6E00AE2E22 /* faceTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = faceTests;
+			sourceTree = "<group>";
+		};
+		E7D24DB12861AE6E00AE2E22 /* face */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24DB22861AE6E00AE2E22 /* Messages */,
+				E7D24DB72861AE6E00AE2E22 /* faceApp.swift */,
+				E7D24DB82861AE6E00AE2E22 /* Test */,
+				E7D24DB92861AE6E00AE2E22 /* Boy */,
+				E7D24DC12861AE6E00AE2E22 /* Persistence.swift */,
+				E7D24DC22861AE6E00AE2E22 /* Preview Content */,
+				E7D24DC42861AE6E00AE2E22 /* Girl */,
+				E7D24DCC2861AE6E00AE2E22 /* face.xcdatamodeld */,
+			);
+			path = face;
+			sourceTree = "<group>";
+		};
+		E7D24DB22861AE6E00AE2E22 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24DB32861AE6E00AE2E22 /* MassegeView.swift */,
+				E7D24DB42861AE6E00AE2E22 /* massegexlant.swift */,
+				E7D24DB52861AE6E00AE2E22 /* clapsound¬.mp3 */,
+				E7D24DB62861AE6E00AE2E22 /* EndView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		E7D24DB82861AE6E00AE2E22 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E7D24DB92861AE6E00AE2E22 /* Boy */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24DBA2861AE6E00AE2E22 /* face2b.swift */,
+				E7D24DBB2861AE6E00AE2E22 /* SoundTrackBoy.mp3 */,
+				E7D24DBC2861AE6E00AE2E22 /* face4b.swift */,
+				E7D24DBD2861AE6E00AE2E22 /* face1b.swift */,
+				E7D24DBE2861AE6E00AE2E22 /* face3b.swift */,
+				E7D24DBF2861AE6E00AE2E22 /* BoyViews.swift */,
+				E7D24DC02861AE6E00AE2E22 /* face5b.swift */,
+			);
+			path = Boy;
+			sourceTree = "<group>";
+		};
+		E7D24DC22861AE6E00AE2E22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24DC32861AE6E00AE2E22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7D24DC42861AE6E00AE2E22 /* Girl */ = {
+			isa = PBXGroup;
+			children = (
+				E7D24DC52861AE6E00AE2E22 /* GirlViews.swift */,
+				E7D24DC62861AE6E00AE2E22 /* face4g.swift */,
+				E7D24DC72861AE6E00AE2E22 /* face2g.swift */,
+				E7D24DC82861AE6E00AE2E22 /* face5g.swift */,
+				E7D24DC92861AE6E00AE2E22 /* SoundTrackGirl.mp3 */,
+				E7D24DCA2861AE6E00AE2E22 /* face3g.swift */,
+				E7D24DCB2861AE6E00AE2E22 /* face1g.swift */,
+			);
+			path = Girl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E70E5E0827C3E08000C033DD /* HoldMyHand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70E5E1827C3E08A00C033DD /* Build configuration list for PBXNativeTarget "HoldMyHand" */;
+			buildPhases = (
+				5577EAA351A3D6C392F97076 /* [CP] Check Pods Manifest.lock */,
+				E70E5E0527C3E08000C033DD /* Sources */,
+				E70E5E0627C3E08000C033DD /* Frameworks */,
+				E70E5E0727C3E08000C033DD /* Resources */,
+				1ECD392661A136922861B8AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoldMyHand;
+			productName = HoldMyHand;
+			productReference = E70E5E0927C3E08000C033DD /* HoldMyHand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70E5E0127C3E08000C033DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E70E5E0827C3E08000C033DD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E70E5E0427C3E08000C033DD /* Build configuration list for PBXProject "HoldMyHand" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E70E5E0027C3E08000C033DD;
+			productRefGroup = E70E5E0A27C3E08000C033DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E70E5E0827C3E08000C033DD /* HoldMyHand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70E5E0727C3E08000C033DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D24DA22861AE5D00AE2E22 /* shyB.wav in Resources */,
+				E7D24DDB2861AE6E00AE2E22 /* Preview Assets.xcassets in Resources */,
+				E7D24DAB2861AE5D00AE2E22 /* DocumentThumbnail.png in Resources */,
+				E7D24D9E2861AE5D00AE2E22 /* Sad.mp3 in Resources */,
+				E7D24D9D2861AE5D00AE2E22 /* sleepy.wav in Resources */,
+				E7D24D8F2861AE5C00AE2E22 /* clamB.wav in Resources */,
+				E7D24D922861AE5C00AE2E22 /* sickB.wav in Resources */,
+				E7D24D9C2861AE5D00AE2E22 /* happyB.wav in Resources */,
+				E7D24D9B2861AE5D00AE2E22 /* angry.wav in Resources */,
+				E7D24D8E2861AE5C00AE2E22 /* shy.wav in Resources */,
+				E7D24D942861AE5D00AE2E22 /* sad.wav in Resources */,
+				E70E5E1427C3E08A00C033DD /* Preview Assets.xcassets in Resources */,
+				E7D24D9F2861AE5D00AE2E22 /* calm.wav in Resources */,
+				E7D24DA82861AE5D00AE2E22 /* DocumentThumbnail.plist in Resources */,
+				E7D24D9A2861AE5D00AE2E22 /* sleepyB.wav in Resources */,
+				E7D24DAA2861AE5D00AE2E22 /* Workspace.plist in Resources */,
+				E7D24DD02861AE6E00AE2E22 /* clapsound¬.mp3 in Resources */,
+				E7D24D902861AE5C00AE2E22 /* sleepyB-1.wav in Resources */,
+				E7D24DE02861AE6E00AE2E22 /* SoundTrackGirl.mp3 in Resources */,
+				E7D24D962861AE5D00AE2E22 /* angryB.wav in Resources */,
+				E7D24D952861AE5D00AE2E22 /* surprised.wav in Resources */,
+				E70E5E1127C3E08A00C033DD /* Assets.xcassets in Resources */,
+				E7D24DA92861AE5D00AE2E22 /* CachedManifest.plist in Resources */,
+				E7D24D912861AE5C00AE2E22 /* excited.wav in Resources */,
+				E7D24D982861AE5D00AE2E22 /* excitedB.wav in Resources */,
+				E7D24DD42861AE6E00AE2E22 /* SoundTrackBoy.mp3 in Resources */,
+				E7D24D972861AE5D00AE2E22 /* sick.wav in Resources */,
+				E7D24DA12861AE5D00AE2E22 /* emofaceB.wav in Resources */,
+				E70E5E2127C3E28500C033DD /* GoogleService-Info.plist in Resources */,
+				E7D24D8D2861AE5C00AE2E22 /* frearful.wav in Resources */,
+				E7D24D932861AE5C00AE2E22 /* happy.wav in Resources */,
+				E7D24DA32861AE5D00AE2E22 /* emoface.wav in Resources */,
+				E7D24D992861AE5D00AE2E22 /* fearfulB.wav in Resources */,
+				E7D24DA02861AE5D00AE2E22 /* surprisedB.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ECD392661A136922861B8AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoldMyHand/Pods-HoldMyHand-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoldMyHand/Pods-HoldMyHand-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HoldMyHand/Pods-HoldMyHand-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5577EAA351A3D6C392F97076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoldMyHand-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70E5E0527C3E08000C033DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D24DE12861AE6E00AE2E22 /* face3g.swift in Sources */,
+				E7D24DAC2861AE5D00AE2E22 /* Sound.swift in Sources */,
+				E7D24DD82861AE6E00AE2E22 /* BoyViews.swift in Sources */,
+				E7D24DA42861AE5D00AE2E22 /* ContentView2.swift in Sources */,
+				E722AB7727E9B3A5007988DF /* SenarioTwo.swift in Sources */,
+				E7D24D8C2861AE5C00AE2E22 /* learnView.swift in Sources */,
+				E7D24DDC2861AE6E00AE2E22 /* GirlViews.swift in Sources */,
+				E7D24DA62861AE5D00AE2E22 /* Package.swift in Sources */,
+				E722AB7127E9B210007988DF /* ScenariosView.swift in Sources */,
+				E7D24DA72861AE5D00AE2E22 /* SoundG.swift in Sources */,
+				E722ABAC27E9DE2B007988DF /* progressView.swift in Sources */,
+				E7D24DD22861AE6E00AE2E22 /* faceApp.swift in Sources */,
+				E70E5E0F27C3E08000C033DD /* ContentView.swift in Sources */,
+				E71FDBE5280EB5DF00666B03 /* SenarioFive.swift in Sources */,
+				E722AB7427E9B322007988DF /* ScenarioOne.swift in Sources */,
+				E7D7B28627D2E43F00388FFC /* ForgetPasswordView.swift in Sources */,
+				E7D24DD52861AE6E00AE2E22 /* face4b.swift in Sources */,
+				E7D24DCE2861AE6E00AE2E22 /* MassegeView.swift in Sources */,
+				E7D24DD62861AE6E00AE2E22 /* face1b.swift in Sources */,
+				E7D24DDF2861AE6E00AE2E22 /* face5g.swift in Sources */,
+				E7D24DD92861AE6E00AE2E22 /* face5b.swift in Sources */,
+				E722AB7D27E9B46E007988DF /* ScenarioFour.swift in Sources */,
+				E7D24DDA2861AE6E00AE2E22 /* Persistence.swift in Sources */,
+				E7D24DDE2861AE6E00AE2E22 /* face2g.swift in Sources */,
+				E7D24DD72861AE6E00AE2E22 /* face3b.swift in Sources */,
+				E7D7B28927D2EC2500388FFC /* CreateAccountView.swift in Sources */,
+				E7D7B28C27D2EF4400388FFC /* UserModel.swift in Sources */,
+				E7ABDAA42817298900F6ADAC /* activityStatus.swift in Sources */,
+				E7D24DA52861AE5D00AE2E22 /* MyApp.swift in Sources */,
+				E7D24DCF2861AE6E00AE2E22 /* massegexlant.swift in Sources */,
+				E7D24DE22861AE6E00AE2E22 /* face1g.swift in Sources */,
+				E722ABA627E9D3ED007988DF /* emotionalFace.swift in Sources */,
+				E7D7B29327D750C000388FFC /* Home.swift in Sources */,
+				E722ABA927E9D463007988DF /* firstLearnView.swift in Sources */,
+				E7D24DD12861AE6E00AE2E22 /* EndView.swift in Sources */,
+				E7D1E1B127E5C5000000525A /* userSetting.swift in Sources */,
+				E70E5E0D27C3E08000C033DD /* HoldMyHandApp.swift in Sources */,
+				E7D24DDD2861AE6E00AE2E22 /* face4g.swift in Sources */,
+				E7D24DD32861AE6E00AE2E22 /* face2b.swift in Sources */,
+				E722AB7A27E9B3E3007988DF /* SenarioThree.swift in Sources */,
+				E7D24DE32861AE6E00AE2E22 /* face.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E70E5E1627C3E08A00C033DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E70E5E1727C3E08A00C033DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70E5E1927C3E08A00C033DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD18C8C329348C943459F594 /* Pods-HoldMyHand.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoldMyHand/Preview Content\"";
+				DEVELOPMENT_TEAM = VMFPG3F48D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HoldMyHand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = Manar.mac.HoldMyHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70E5E1A27C3E08A00C033DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738D32E6422DF595EC65B180 /* Pods-HoldMyHand.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoldMyHand/Preview Content\"";
+				DEVELOPMENT_TEAM = VMFPG3F48D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HoldMyHand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = Manar.mac.HoldMyHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70E5E0427C3E08000C033DD /* Build configuration list for PBXProject "HoldMyHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70E5E1627C3E08A00C033DD /* Debug */,
+				E70E5E1727C3E08A00C033DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70E5E1827C3E08A00C033DD /* Build configuration list for PBXNativeTarget "HoldMyHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70E5E1927C3E08A00C033DD /* Debug */,
+				E70E5E1A27C3E08A00C033DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7D24DCC2861AE6E00AE2E22 /* face.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7D24DCD2861AE6E00AE2E22 /* face.xcdatamodel */,
+			);
+			currentVersion = E7D24DCD2861AE6E00AE2E22 /* face.xcdatamodel */;
+			path = face.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E70E5E0127C3E08000C033DD /* Project object */;
+}
